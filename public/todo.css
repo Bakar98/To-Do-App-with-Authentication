@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: yellow; */
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: sans-serif;
+  }
+  
+  #big-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  #top-div{
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    height: 8vh;
+    color: white;
+    background-color: rgb(63,81,181);
+    box-shadow: 0 0 7px rgba(0, 0, 255, 0.637);
+    border-radius: 5px;
+    padding: 0 1em;
+    margin: 3em 0;
+  }
+  
+  #top-div button{
+    border: none;
+    background-color: transparent;
+    color: white;
+  }
+  
+  #top-div button:hover{
+    background-color: rgb(41,51,109);
+  }
+  
+  #input-div{
+    display: flex;
+    width: 40vw;
+    height: 12vh;
+    border-radius: 8px;
+    box-shadow: 0 0 8px gray;
+    justify-content: space-between;
+  
+  }
+  
+  #input-div input{
+    width: 30vw;
+    height: 8vh;
+    align-self: center;
+    border-radius: 4px;
+    margin-left: 1em;
+    padding-left: 1em;
+    font-size: 1.5em;
+  }
+  
+  #input-div button{
+    align-self: center;
+    margin-right: 2em;
+    border: none;
+    background-color: rgb(63,81,181);
+    width: 4em;
+    height: 4em;
+    border-radius: 4px;
+  }
+  
+  #input-div button:hover{
+  
+      background-color: rgb(41,51,109);
+  }
+  
+  #enter-icon{
+    color: white;
+  }
+  
+  #todo-div{
+    display: flex;
+    margin-top: 1em;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 8px;
+    box-shadow: 0 0 8px gray;
+    overflow-y: scroll;
+    justify-content: center;
+    
+  }
+  
+  .li{
+    margin-top: 1em;
+    display: flex;
+    width: 30vw;
+    height: 12vh;
+    border-radius: 8px;
+    box-shadow: 0 0 8px gray;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  
+  #theToDo{
+      position: fixed;
+      background-color: white;
+      width: 35vw;
+      margin: 0;
+      padding: 1em;
+      border-bottom-style: groove;
+  }
+  
+  #parent{
+    margin-top: 4em;
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+  }
+  
+  #todoNode{
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .user-p{
+    font-size: .8em;
+    color: gray;
+  
+  }
+  
+  #readButton{
+    background-color: transparent;
+        color: gray;
+      border: 1px solid black;
+      margin: 0 1px;
+  }
+  
+  #deleteButton{
+    background-color: transparent;
+    color: red;
+    border: 1px solid black;
+  }
+  
+  #editButton{
+      margin-left: 1px;
+      margin-right: 1px;
+      border: 1px solid black;
+      background-color: transparent;
+  }
+  
+  
+  
+  
+  
+  
+  ::-webkit-scrollbar {
+    width: 20px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(63,81,181); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(24, 37, 107); 
+  }
+  
+  .your-class::-webkit-input-placeholder {
+      color: red
+   }
